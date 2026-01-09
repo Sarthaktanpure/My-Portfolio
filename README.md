@@ -1,16 +1,74 @@
-# React + Vite
+# 🌟 Sarthak Tanpure's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarthaktanpure/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarthaktanpure)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarthaktanpure@example.com)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 About Me
+Hi there! I'm **Sarthak Tanpure**, a passionate **Web Developer & Aspiring AI Enthusiast** from India.  
+I love crafting **beautiful, interactive, and responsive websites**.  
 
-## React Compiler
+I enjoy turning ideas into reality and building projects that make a difference. 🚀
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💻 Skills
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 Frontend
+- **HTML5 | CSS3 | JavaScript | React.js | Tailwind CSS**
+- Responsive Web Design & Animations
+- Modern UI/UX principles  
+
+### 🧠 AI & Machine Learning (Learning)
+- Python, NumPy, Pandas
+- TensorFlow & PyTorch basics
+- Planning to integrate AI projects with web apps  
+
+### 🔧 Tools & Platforms
+- Git & GitHub
+- VS Code & IntelliJ IDEA
+- Figma & Canva
+- Linux & Windows  
+
+---
+
+## 🚀 Projects
+
+### 1️⃣ My Personal Portfolio
+**Tech:** HTML, CSS, JavaScript, Tailwind  
+A fully responsive portfolio website showcasing my skills, projects, and achievements.  
+[View Project](https://github.com/Sarthaktanpure/My-Portfolio)
+
+### 2️⃣ EcoLens – AI-powered Carbon Footprint Visualizer
+**Tech:** Python, AI, Flask (Learning backend integration)  
+An innovative project to visualize carbon footprints and suggest actionable steps to reduce them.  
+
+### 3️⃣ [Other Projects]
+- Project Name 1 –  Smart Banking 
+- Project Name 2 –   Simon Says Game 
+
+---
+
+## 🌟 Achievements
+- Participated in **PCCOE International Grand Challenge 2025** on AI for Climate Change 🌱  
+- Contributed to **Open Source Projects** (Apache, GitHub)  
+- Learning & Exploring **Web Development & AI** consistently  
+
+---
+
+## 📫 Contact Me
+Feel free to connect with me through:
+
+- **Email:** [sarthaktanpure255@gamil.com](mailto:sarthaktanpure255@gmail.com)  
+- **LinkedIn:** [Sarthak Tanpure](https://www.linkedin.com/in/sarthaktanpure/)  
+- **GitHub:** [Sarthaktanpure](https://github.com/Sarthaktanpure)  
+
+> "Code is like humor. When you have to explain it, it’s bad." – Cory House 😎
+
+---
+
+## ✨ Fun Stats
+![Sarthak's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sarthaktanpure&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sarthaktanpure&layout=compact&theme=radical)
