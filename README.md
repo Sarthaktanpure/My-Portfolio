@@ -39,7 +39,7 @@ I enjoy turning ideas into reality and building projects that make a difference.
 ### 1️⃣ My Personal Portfolio
 **Tech:** HTML, CSS, JavaScript, Tailwind  
 A fully responsive portfolio website showcasing my skills, projects, and achievements.  
-[View Project](https://github.com/Sarthaktanpure/My-Portfolio)
+[View Project](https://my-portfolio-sarthak-tanpure.vercel.app/)
 
 ### 2️⃣ EcoLens – AI-powered Carbon Footprint Visualizer
 **Tech:** Python, AI, Flask (Learning backend integration)  
