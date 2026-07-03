@@ -174,6 +174,148 @@ function HeatmapCard() {
   );
 }
 
+function DsaTreeDiagram() {
+  return (
+    <div className="dsa-visual-card">
+      <div className="panel__title-row">
+        <Sparkles size={18} />
+        <h3>Tree anatomy</h3>
+      </div>
+      <svg viewBox="0 0 620 420" role="img" aria-label="Binary tree relationships diagram" className="dsa-diagram">
+        <defs>
+          <linearGradient id="treeStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="var(--accent)" stopOpacity="0.95" />
+            <stop offset="100%" stopColor="var(--accent-2)" stopOpacity="0.55" />
+          </linearGradient>
+          <linearGradient id="treeNode" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="rgba(255, 255, 255, 0.92)" />
+            <stop offset="100%" stopColor="rgba(255, 107, 53, 0.18)" />
+          </linearGradient>
+        </defs>
+
+        <rect x="12" y="12" width="596" height="396" rx="24" className="dsa-diagram__frame" />
+        <path d="M310 82V108" className="dsa-diagram__guide" />
+        <path d="M310 122L212 188" className="dsa-diagram__edge" />
+        <path d="M310 122L408 188" className="dsa-diagram__edge" />
+        <path d="M212 206L150 286" className="dsa-diagram__edge" />
+        <path d="M212 206L274 286" className="dsa-diagram__edge" />
+        <path d="M408 206L344 286" className="dsa-diagram__edge" />
+        <path d="M408 206L476 286" className="dsa-diagram__edge" />
+        <path d="M150 286L118 338" className="dsa-diagram__edge dsa-diagram__edge--soft" />
+        <path d="M150 286L184 338" className="dsa-diagram__edge dsa-diagram__edge--soft" />
+
+        <path d="M94 305L214 305L158 208Z" className="dsa-diagram__subtree" />
+
+        {[
+          { x: 310, y: 122, label: "A" },
+          { x: 212, y: 206, label: "B" },
+          { x: 408, y: 206, label: "C" },
+          { x: 150, y: 286, label: "D" },
+          { x: 274, y: 286, label: "E" },
+          { x: 344, y: 286, label: "F" },
+          { x: 476, y: 286, label: "G" },
+          { x: 118, y: 338, label: "H" },
+          { x: 184, y: 338, label: "I" },
+          { x: 274, y: 338, label: "J" },
+        ].map((node) => (
+          <g key={node.label} className="dsa-diagram__node-group">
+            <circle cx={node.x} cy={node.y} r="22" className="dsa-diagram__node" />
+            <text x={node.x} y={node.y + 7} textAnchor="middle" className="dsa-diagram__node-label">
+              {node.label}
+            </text>
+          </g>
+        ))}
+
+        <g className="dsa-diagram__callout dsa-diagram__callout--top">
+          <text x="310" y="44" textAnchor="middle">Root</text>
+          <path d="M310 52V80" className="dsa-diagram__callout-line" />
+        </g>
+        <g className="dsa-diagram__callout dsa-diagram__callout--left">
+          <text x="62" y="202">Parent node</text>
+          <path d="M168 196H104" className="dsa-diagram__callout-line" />
+        </g>
+        <g className="dsa-diagram__callout dsa-diagram__callout--left-lower">
+          <text x="34" y="252">Child node</text>
+          <path d="M136 246H100" className="dsa-diagram__callout-line" />
+        </g>
+        <g className="dsa-diagram__callout dsa-diagram__callout--bottom">
+          <text x="160" y="390" textAnchor="middle">Subtree</text>
+          <path d="M160 352V366" className="dsa-diagram__callout-line" />
+        </g>
+        <g className="dsa-diagram__callout dsa-diagram__callout--right">
+          <text x="490" y="252">Sibling nodes</text>
+          <path d="M430 246H468" className="dsa-diagram__callout-line dsa-diagram__callout-line--dashed" />
+        </g>
+        <g className="dsa-diagram__levels">
+          <text x="540" y="112">Level 0</text>
+          <text x="540" y="170">Level 1</text>
+          <text x="540" y="228">Level 2</text>
+          <text x="540" y="286">Level 3</text>
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function DsaGraphDiagram() {
+  return (
+    <div className="dsa-visual-card">
+      <div className="panel__title-row">
+        <BrainCircuit size={18} />
+        <h3>Graph connectivity</h3>
+      </div>
+      <svg viewBox="0 0 620 420" role="img" aria-label="Weighted graph connectivity diagram" className="dsa-diagram">
+        <defs>
+          <linearGradient id="graphStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#4a92ff" stopOpacity="0.95" />
+            <stop offset="100%" stopColor="#8dc1ff" stopOpacity="0.65" />
+          </linearGradient>
+          <linearGradient id="graphNode" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="rgba(255,255,255,0.96)" />
+            <stop offset="100%" stopColor="rgba(74,146,255,0.18)" />
+          </linearGradient>
+        </defs>
+
+        <rect x="12" y="12" width="596" height="396" rx="24" className="dsa-diagram__frame dsa-diagram__frame--graph" />
+
+        <g className="dsa-diagram__graph-lines">
+          <path d="M310 70L156 136" className="dsa-diagram__graph-edge" />
+          <path d="M310 70L444 152" className="dsa-diagram__graph-edge" />
+          <path d="M310 70L308 178" className="dsa-diagram__graph-edge" />
+          <path d="M156 136L126 282" className="dsa-diagram__graph-edge" />
+          <path d="M156 136L220 232" className="dsa-diagram__graph-edge" />
+          <path d="M220 232L308 322" className="dsa-diagram__graph-edge" />
+          <path d="M308 178L308 322" className="dsa-diagram__graph-edge" />
+          <path d="M444 152L308 322" className="dsa-diagram__graph-edge" />
+          <path d="M126 282L308 322" className="dsa-diagram__graph-edge" />
+          <path d="M220 232L444 152" className="dsa-diagram__graph-edge dsa-diagram__graph-edge--accent" />
+        </g>
+
+        {[
+          { x: 310, y: 70, label: "V1" },
+          { x: 156, y: 136, label: "V5" },
+          { x: 444, y: 152, label: "V2" },
+          { x: 308, y: 178, label: "V6" },
+          { x: 126, y: 282, label: "V4" },
+          { x: 220, y: 232, label: "V7" },
+          { x: 308, y: 322, label: "V3" },
+        ].map((node) => (
+          <g key={node.label} className="dsa-diagram__node-group">
+            <circle cx={node.x} cy={node.y} r="24" className="dsa-diagram__node dsa-diagram__node--graph" />
+            <text x={node.x} y={node.y + 8} textAnchor="middle" className="dsa-diagram__node-label dsa-diagram__node-label--graph">
+              {node.label}
+            </text>
+          </g>
+        ))}
+
+        <text x="52" y="362" className="dsa-diagram__caption">
+          Connected graph with shared paths and a few alternate routes.
+        </text>
+      </svg>
+    </div>
+  );
+}
+
 export function Sections() {
   const [formState, setFormState] = useState({ name: "", email: "", message: "" });
 
@@ -204,8 +346,8 @@ export function Sections() {
               <a className="button button--primary" href="#projects">
                 View Work <ArrowRight size={16} />
               </a>
-              <a className="button button--secondary" href={site.resumeHref} download>
-                Resume PDF <ExternalLink size={16} />
+              <a className="button button--secondary" href={site.resumeHref} target="_blank" rel="noreferrer">
+                View resume <ExternalLink size={16} />
               </a>
             </div>
 
@@ -396,22 +538,27 @@ export function Sections() {
             </a>
           </div>
 
-          <div className="panel contribution-card">
-            <div className="contribution-grid" aria-label="DSA activity heatmap">
-              {dsa.grid.flatMap((row, rowIndex) =>
-                row.map((cell, cellIndex) => (
-                  <span
-                    key={`${rowIndex}-${cellIndex}`}
-                    className={cell ? "contribution-grid__cell contribution-grid__cell--active" : "contribution-grid__cell"}
-                  />
-                )),
-              )}
-            </div>
-            <div className="contribution-card__legend">
-              <span>Arrays</span>
-              <span>Graphs</span>
-              <span>DP</span>
-              <span>Trees</span>
+          <div className="dsa-visuals">
+            <DsaTreeDiagram />
+            <DsaGraphDiagram />
+
+            <div className="panel contribution-card dsa-visual-card dsa-visual-card--wide">
+              <div className="contribution-grid" aria-label="DSA activity heatmap">
+                {dsa.grid.flatMap((row, rowIndex) =>
+                  row.map((cell, cellIndex) => (
+                    <span
+                      key={`${rowIndex}-${cellIndex}`}
+                      className={cell ? "contribution-grid__cell contribution-grid__cell--active" : "contribution-grid__cell"}
+                    />
+                  )),
+                )}
+              </div>
+              <div className="contribution-card__legend">
+                <span>Arrays</span>
+                <span>Graphs</span>
+                <span>DP</span>
+                <span>Trees</span>
+              </div>
             </div>
           </div>
         </div>

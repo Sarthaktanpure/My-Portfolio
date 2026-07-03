@@ -6,7 +6,7 @@ export const site = {
     "B.E. Information Technology, Pravara Rural Engineering College (PREC), Loni - CGPA 9.0/10.0, Rank 1 in cohort, Top 5% in district",
   contactEmail: "sarthaktanpure255@gmail.com",
   contactPhone: "+91 9307919092",
-  resumeHref: "/resume.pdf",
+  resumeHref: "/resume.docx",
   githubHref: "https://github.com/Sarthaktanpure",
   linkedInHref: "https://linkedin.com/in/sarthak-tanpure-a74b5133a",
   leetcodeHref: "https://leetcode.com/u/Sarthak_Tanpure_01",
