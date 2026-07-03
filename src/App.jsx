@@ -1,28 +1,13 @@
-import React from "react";
-import Navbar from "./Components/Navbar";
-import About from "./Components/About";
-import Project from "./Components/Projects";
-import Contact from "./Components/ContactCard";
-import "./App.css";
+import { Backdrop } from "./Components/Backdrop";
+import { Navbar } from "./Components/Navbar";
+import { Sections } from "./Components/Sections";
 
-function App() {
+export default function App() {
   return (
     <>
+      <Backdrop />
       <Navbar />
-      <main className=""> 
-        <section id="about">
-          <About />
-        </section>
-        <section id="projects">
-          <Project />
-        </section>
-
-        <section id="contact">
-          <Contact />
-        </section>
-      </main>
+      <Sections />
     </>
   );
 }
-
-export default App;

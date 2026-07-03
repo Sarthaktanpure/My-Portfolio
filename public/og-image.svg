@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Sarthak Tanpure portfolio preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0B0D" />
+      <stop offset="100%" stop-color="#151821" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35" />
+      <stop offset="100%" stop-color="#FF9D71" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1030" cy="120" r="180" fill="#FF6B35" opacity="0.12" />
+  <circle cx="170" cy="510" r="210" fill="#FF6B35" opacity="0.1" />
+  <rect x="78" y="70" width="1044" height="490" rx="40" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)" />
+  <text x="120" y="160" fill="#F5F3EF" font-family="Inter, sans-serif" font-size="22" letter-spacing="6">SARTHAK TANPURE</text>
+  <text x="120" y="255" fill="#F5F3EF" font-family="Space Grotesk, Inter, sans-serif" font-size="68" font-weight="700">Full-Stack &amp; AI/ML Engineer</text>
+  <text x="120" y="320" fill="#C9C7C3" font-family="Inter, sans-serif" font-size="30">Explainable AI, production delivery, and signal-first product engineering.</text>
+  <rect x="120" y="390" width="250" height="64" rx="32" fill="url(#accent)" />
+  <text x="145" y="431" fill="#100B08" font-family="Inter, sans-serif" font-size="24" font-weight="700">View the portfolio</text>
+  <rect x="420" y="390" width="320" height="64" rx="32" fill="none" stroke="rgba(255,255,255,0.18)" />
+  <text x="448" y="431" fill="#F5F3EF" font-family="Inter, sans-serif" font-size="24" font-weight="600">MedVision AI case study</text>
+</svg>
