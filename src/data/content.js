@@ -27,8 +27,8 @@ export const navigation = [
 
 export const stats = [
   { label: "CGPA", value: "9.0/10" },
-  { label: "DSA", value: "250+ problems" },
-  { label: "Projects", value: "5 shipped" },
+  { label: "DSA", value: "136+ solved" },
+  { label: "Projects", value: "6+ shipped" },
   { label: "Hackathons", value: "4 national" },
 ];
 
@@ -61,7 +61,8 @@ export const flagshipProject = {
   summary:
     "A CNN-based triage pipeline for chest X-ray and CT scan classification with Grad-CAM overlays, built as a decoupled Python microservice that keeps the MERN app fast and scalable.",
   stack: ["MERN", "Python microservice", "TensorFlow", "CNN", "Grad-CAM", "Flask", "React", "Node.js"],
-  githubHref: "https://github.com/Sarthaktanpure/MedVision",
+  githubHref: "https://github.com/Sarthaktanpure/MedVisionAI",
+  liveHref: "https://med-vision-ai-green.vercel.app",
   bullets: [
     "CNN pipeline uses transfer learning with ResNet and EfficientNet backbones to detect abnormalities in chest imaging.",
     "Independent Python service handles preprocessing and inference so the web app stays responsive under load.",
@@ -77,6 +78,26 @@ export const flagshipProject = {
 };
 
 export const projects = [
+  {
+    name: "MedVision AI",
+    tag: "Radiology Triage & Explainable AI",
+    summary:
+      "Deep learning medical imaging platform featuring CNN abnormality detection, Grad-CAM heatmap overlays, multi-scan comparison, and automated clinician report generation.",
+    liveHref: "https://med-vision-ai-green.vercel.app",
+    githubHref: "https://github.com/Sarthaktanpure/MedVisionAI",
+    stack: ["TypeScript", "Python", "FastAPI", "React", "CNN", "Grad-CAM", "OpenCV"],
+    accent: "cyan",
+  },
+  {
+    name: "MedGuard AI",
+    tag: "Pharma Verification & Provenance",
+    summary:
+      "Offline-first pharmaceutical authentication system designed to detect counterfeit drugs, verify batches via QR scans, track supply chains, and audit provenance.",
+    liveHref: "https://med-guard-ai-frontend.vercel.app",
+    githubHref: "https://github.com/Sarthaktanpure/MedGuardAI",
+    stack: ["TypeScript", "React", "Node.js", "Express", "MongoDB", "ONNX", "Tailwind CSS"],
+    accent: "emerald",
+  },
   {
     name: "FullStack Trading Platform",
     tag: "Zerodha Clone",
@@ -120,10 +141,53 @@ export const projects = [
 ];
 
 export const dsa = {
-  headline: "250+ problems solved on LeetCode and GFG",
+  headline: "136+ problems solved on LeetCode with real-time sync",
   detail:
-    "Strong in Java under contest constraints, with pattern coverage across arrays, linked lists, stacks, queues, graphs, DP, sliding window, and trees.",
+    "Active competitive problem solver in Java 21 under contest constraints, with verified coverage across trees, heaps, graphs, two pointers, and dynamic programming.",
   href: site.leetcodeHref,
+  username: "Sarthak_Tanpure_01",
+  totalSolved: 136,
+  breakdown: [
+    { label: "Easy", count: 94, percentage: 69, color: "#10b981", lightColor: "#059669" },
+    { label: "Medium", count: 35, percentage: 26, color: "#f59e0b", lightColor: "#d97706" },
+    { label: "Hard", count: 7, percentage: 5, color: "#ef4444", lightColor: "#dc2626" },
+  ],
+  metrics: [
+    { label: "Global Ranking", value: "#1,272,549", note: "Top active percentile" },
+    { label: "Acceptance Rate", value: "46.9%", note: "Consistent first-pass accuracy" },
+    { label: "Primary Lang", value: "Java 21", note: "Fast I/O & Collections" },
+    { label: "Earned Badge", value: "50 Days 2026", note: "Daily problem-solving practice" },
+  ],
+  patterns: [
+    { name: "Arrays & Hashing", count: "55+" },
+    { name: "Trees & BST", count: "38+" },
+    { name: "Graphs (BFS/DFS)", count: "32+" },
+    { name: "Two Pointers", count: "28+" },
+    { name: "Dynamic Programming", count: "24+" },
+    { name: "Binary Search", count: "22+" },
+  ],
+  highlights: [
+    {
+      title: "Course Schedule II",
+      difficulty: "Medium",
+      pattern: "Topological Sort & Cycle Detection",
+    },
+    {
+      title: "Validate Binary Search Tree",
+      difficulty: "Medium",
+      pattern: "Tree In-Order Traversal Invariant",
+    },
+    {
+      title: "Trapping Rain Water",
+      difficulty: "Hard",
+      pattern: "Two Pointers / Monotonic Stack",
+    },
+    {
+      title: "Longest Substring Without Repeating",
+      difficulty: "Medium",
+      pattern: "Sliding Window & Hash Set",
+    },
+  ],
   grid: [
     [1, 1, 0, 0, 1, 0, 0],
     [0, 1, 1, 0, 1, 1, 0],

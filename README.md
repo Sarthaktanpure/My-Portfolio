@@ -36,19 +36,35 @@ I enjoy turning ideas into reality and building projects that make a difference.
 
 ## 🚀 Projects
 
-### 1️⃣ My Personal Portfolio
-**Tech:** HTML, CSS, JavaScript, Tailwind  
-A fully responsive portfolio website showcasing my skills, projects, and achievements.  
-[View Project](https://my-portfolio-five-phi-26.vercel.app/)
+### 1️⃣ MedVision AI – Radiology Triage & Explainable AI
+**Tech:** TypeScript, Python, FastAPI, React, CNN, Grad-CAM, OpenCV  
+AI-powered medical imaging triage platform featuring CNN abnormality detection, Grad-CAM heatmap overlays, multi-scan comparison, and automated clinician report generation.  
+[Live Demo](https://med-vision-ai-green.vercel.app/) | [GitHub](https://github.com/Sarthaktanpure/MedVisionAI)
 
-### 2️⃣ EcoLens – AI-powered Carbon Footprint Visualizer
-**Tech:** Python, AI, Flask (Learning backend integration)  
-An innovative project to visualize carbon footprints and suggest actionable steps to reduce them.  
+### 2️⃣ MedGuard AI – Medicine Verification & Provenance Platform
+**Tech:** TypeScript, React, Node.js, Express, MongoDB, ONNX, Tailwind CSS  
+Offline-first pharmaceutical authentication system designed to detect counterfeit drugs, verify batches via QR scans, track supply chains, and audit provenance.  
+[Live Demo](https://med-guard-ai-frontend.vercel.app/) | [GitHub](https://github.com/Sarthaktanpure/MedGuardAI)
 
-### 3️⃣ [Other Projects]
-- Project Name 1 –  MedVision AI
+### 3️⃣ FullStack Trading Platform (Zerodha Clone)
+**Tech:** React, Node.js, Express, MongoDB, REST  
+Production-grade trading dashboard with portfolio tracking, holdings, and order placement modeled on Zerodha Kite.  
+[Live Demo](https://zerodha-dun.vercel.app/) | [GitHub](https://github.com/Sarthaktanpure/Zerodha)
 
-- Project Name 2 – SiAgriconnect 
+### 4️⃣ AgriConnect – Farmer Marketplace
+**Tech:** MongoDB, Razorpay, Socket.io, Express, React  
+Farmer-to-buyer marketplace with role-based auth, Razorpay payments, and real-time order/chat updates.  
+[Live Demo](https://agriconnect-ohet.vercel.app/) | [GitHub](https://github.com/Sarthaktanpure/Agriconnect)
+
+### 5️⃣ MeetSpace – Video Conferencing
+**Tech:** WebRTC, Socket.io, React, Node.js, STUN/TURN  
+Low-latency peer-to-peer video conferencing with multi-user rooms, screen sharing, and resilient signaling logic.  
+[GitHub](https://github.com/Sarthaktanpure/MeetSpace)
+
+### 6️⃣ Jay Yogeshwar Solar – Commercial Website
+**Tech:** Full-Stack Delivery, UI/UX, Deployment  
+Solo freelance client delivery for a solar business, designed, built, and deployed end-to-end.  
+[Live Website](https://jayyogeshwarsolar.in/)
 
 ---
 
