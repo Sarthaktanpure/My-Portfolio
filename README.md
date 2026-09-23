@@ -38,8 +38,7 @@ I enjoy turning ideas into reality and building projects that make a difference.
 
 ### 1️⃣ MedVision AI – Radiology Triage & Explainable AI
 **Tech:** TypeScript, Python, FastAPI, React, CNN, Grad-CAM, OpenCV  
-AI-powered medical imaging triage platform featuring CNN abnormality detection, Grad-CAM heatmap overlays, multi-scan comparison, and automated clinician report generation.  
-[Live Demo](https://med-vision-ai-green.vercel.app/) | [GitHub](https://github.com/Sarthaktanpure/MedVisionAI)
+AI-powered medical imaging triage platform featuring CNN abnormality detection, Grad-CAM heatmap overlays, multi-scan comparison, and automated clinician report ) 
 
 ### 2️⃣ MedGuard AI – Medicine Verification & Provenance Platform
 **Tech:** TypeScript, React, Node.js, Express, MongoDB, ONNX, Tailwind CSS  
